@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For Ana ❤️</title>
+    <title>For Aira ❤️</title>
 
     <style>
         * {
@@ -171,7 +171,7 @@
 
     <div class="container">
 
-        <h1>Hey Ana ❤️</h1>
+        <h1>Hey Aira ❤️</h1>
 
         <p class="subtitle">
             I made you a tiny corner of the internet.
@@ -182,17 +182,17 @@
         <div class="buttons">
 
             <button class="joke-btn" onclick="tellJoke()">
-                😂 Ana, Tell Me a Joke
+                😂 Aira, Tell Me a Joke
             </button>
 
             <button class="compliment-btn" onclick="complimentMe()">
-                💕 Ana, Compliment Me
+                💕 Aira, Compliment Me
             </button>
 
         </div>
 
         <div class="result" id="result">
-            Pick one, Ana 👀
+            Pick one, Aira 👀
         </div>
 
         <div class="signature">
@@ -205,69 +205,69 @@
 
         const jokes = [
 
-            "Ana, I was going to make a joke about Austin... but it's already hotter than my laptop trying to run this website. 😂",
+            "Aira, I was going to make a joke about Austin... but it's already hotter than my laptop trying to run this website. 😂",
 
-            "Ana, why don't programmers like nature? Because it has way too many bugs. 🐛",
+            "Aira, why don't programmers like nature? Because it has way too many bugs. 🐛",
 
-            "Ana, I tried to make this website perfect... then I remembered I'm the one coding it. 😭",
+            "Aira, I tried to make this website perfect... then I remembered I'm the one coding it. 😭",
 
-            "Ana, my computer asked me if I wanted to save my work. I said yes. It asked if I wanted to save my dignity too. I closed the laptop. 😂",
+            "Aira, my computer asked me if I wanted to save my work. I said yes. It asked if I wanted to save my dignity too. I closed the laptop. 😂",
 
-            "Ana, Austin has two seasons: hot and slightly less hot. 🌵😂",
+            "Aira, Austin has two seasons: hot and slightly less hot. 🌵😂",
 
-            "Ana, I have 47 tabs open in my brain right now and somehow you're responsible for at least 12 of them. 😭",
+            "Aira, I have 47 tabs open in my brain right now and somehow you're responsible for at least 12 of them. 😭",
 
-            "Ana, I tried being normal today. It was incredibly boring, so I came back to bothering you instead. 😂",
+            "Aira, I tried being normal today. It was incredibly boring, so I came back to bothering you instead. 😂",
 
-            "Ana, if overthinking were an Olympic sport, we'd both have gold medals by now.",
+            "Aira, if overthinking were an Olympic sport, we'd both have gold medals by now.",
 
-            "Ana, I wanted to tell you a really good joke... but then I realized you already clicked this button, so clearly you have excellent taste. 😌",
+            "Aira, I wanted to tell you a really good joke... but then I realized you already clicked this button, so clearly you have excellent taste. 😌",
 
-            "Ana, what do you call a computer that sings? A-Dell. ...I'll show myself out. 🚪😂",
+            "Aira, what do you call a computer that sings? A-Dell. ...I'll show myself out. 🚪😂",
 
-            "Ana, I asked my laptop for relationship advice. It said, 'Have you tried turning it off and on again?' 😭",
+            "Aira, I asked my laptop for relationship advice. It said, 'Have you tried turning it off and on again?' 😭",
 
-            "Ana, this website has two buttons because I couldn't decide whether to make you laugh or remind you how gorgeous you are."
+            "Aira, this website has two buttons because I couldn't decide whether to make you laugh or remind you how gorgeous you are."
         ];
 
 
         const compliments = [
 
-            "Ana, you're genuinely gorgeous. Like, unnecessarily gorgeous. There was really no need to go that hard. ❤️",
+            "Aira, you're genuinely gorgeous. Like, unnecessarily gorgeous. There was really no need to go that hard. ❤️",
 
-            "Ana, you're beautiful, but honestly, your kindness is what makes you stand out even more. ❤️",
+            "Aira, you're beautiful, but honestly, your kindness is what makes you stand out even more. ❤️",
 
-            "Ana, you have that rare combination of being ridiculously pretty and having a genuinely good heart.",
+            "Aira, you have that rare combination of being ridiculously pretty and having a genuinely good heart.",
 
-            "Ana, your smile could probably make a bad day reconsider its entire existence. 😂❤️",
+            "Aira, your smile could probably make a bad day reconsider its entire existence. 😂❤️",
 
-            "Ana, you're the kind of person who makes people feel comfortable just by being around them.",
+            "Aira, you're the kind of person who makes people feel comfortable just by being around them.",
 
-            "Ana, you're beautiful in a way that's honestly a little unfair to everyone else. 😭",
+            "Aira, you're beautiful in a way that's honestly a little unfair to everyone else. 😭",
 
-            "Ana, if being gorgeous and kind were illegal, you'd definitely be in trouble. 🚔❤️",
+            "Aira, if being gorgeous and kind were illegal, you'd definitely be in trouble. 🚔❤️",
 
-            "Ana, there's something about your personality that makes you very easy to admire.",
+            "Aira, there's something about your personality that makes you very easy to admire.",
 
-            "Ana, you're one of those people who somehow becomes more attractive the more someone gets to know you.",
+            "Aira, you're one of those people who somehow becomes more attractive the more someone gets to know you.",
 
-            "Ana, your looks might be what someone notices first, but your heart is what they'd remember.",
+            "Aira, your looks might be what someone notices first, but your heart is what they'd remember.",
 
-            "Ana, you deserve to be reminded that you're amazing sometimes. So consider this your reminder. 💕",
+            "Aira, you deserve to be reminded that you're amazing sometimes. So consider this your reminder. 💕",
 
-            "Ana, I could probably write a hundred compliments and still not explain properly what makes you so special.",
+            "Aira, I could probably write a hundred compliments and still not explain properly what makes you so special.",
 
-            "Ana, you're gorgeous on the outside, but your personality is honestly what makes you unforgettable.",
+            "Aira, you're gorgeous on the outside, but your personality is honestly what makes you unforgettable.",
 
-            "Ana, I don't know how you manage to be this pretty and this sweet at the same time. It feels slightly unfair. 😂❤️",
+            "Aira, I don't know how you manage to be this pretty and this sweet at the same time. It feels slightly unfair. 😂❤️",
 
-            "Ana, you're the type of person someone could meet once and still remember for a very long time.",
+            "Aira, you're the type of person someone could meet once and still remember for a very long time.",
 
-            "Ana, there's a really beautiful energy about you. It's not just your looks.",
+            "Aira, there's a really beautiful energy about you. It's not just your looks.",
 
-            "Ana, you're pretty enough to get someone's attention, but you're kind enough to make them want to stay.",
+            "Aira, you're pretty enough to get someone's attention, but you're kind enough to make them want to stay.",
 
-            "Ana... if you ever forget how amazing you are, just come back to this button. I'll remind you. ❤️"
+            "Aira... if you ever forget how amazing you are, just come back to this button. I'll remind you. ❤️"
         ];
 
 
